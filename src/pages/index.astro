@@ -1,0 +1,28 @@
+---
+import Layout from '@layouts/Layout.astro';
+import { Image } from "astro:assets";
+import lambdinox from "@assets/images/lambdinox.svg";
+import ishan from "@assets/images/ishan.png";
+
+---
+
+<Layout>
+	<main class="bg-black h-screen flex flex-col justify-center items-center">
+    <Image src={ishan} alt="ishan" class="rounded-full p-5 max-w-[90vw]  h-auto" />
+    <h1 class="text-white text-4xl font-bold text-center p-2">Hello, I'm Ishan</h1>
+    <div class="text-left flex p-0 justify-center align-items-center">
+      <p class="text-lg text-white font-medium pt-1 pr-1">
+        I am building
+      </p>
+      <a href="https://anemo.ai" target="_blank" class="p-0 m-0 ">
+        <Image src={lambdinox} alt="lambdinox" class="rounded-full h-10 w-10 hover:bg-zinc-950 hover:border-solid hover:border-2" ></Image>
+      </a>
+    </div>
+
+    <div class="absolute top-[75%]">
+      <!-- <Mission client:only="solid-js" />
+      <br />
+      <LearnMore client:load /> -->
+    </div>
+	</main>
+</Layout>
