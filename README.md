@@ -1,3 +1,3 @@
-# anemo.ai
+# Personal Website
 
-The Website for [Anemo AI](https://anemo.ai)
+Personal Website
