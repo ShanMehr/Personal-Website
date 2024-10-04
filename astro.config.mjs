@@ -20,7 +20,7 @@ import solidJs from "@astrojs/solid-js";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://anemo.ai",
+  site: "https://ran.so",
   base: "/",
   trailingSlash: "never",
   output: "hybrid",
